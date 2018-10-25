@@ -1,0 +1,92 @@
+h1 {
+    color: DarkTurquoise;
+    font-size: 1.5em;
+    font-family: "Lucida Console", "Courier New", Monospace;
+    border: .4em inset turquoise;
+    margin-right: 1.4em;
+    position: relative;
+    left: .6em;
+    text-align: center;
+}
+
+h4 {
+    font-family: "Lucida Console", "Courier New", Monospace;
+    color: turquoise;
+    padding-left: 1em;
+}
+
+div {
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+div[id="language"] {
+    font-family: "Lucida Console", "Courier New", Monospace;
+    color: turquoise;
+}
+
+h2,
+h3 {
+    color: darkolivegreen;
+    text-align: right;
+    padding-right: 1em;
+}
+
+p {
+    color: darkturquoise;
+    font-family: "Lucida Console", "Courier New", Monospace;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+p[id="input"] {
+    margin-bottom: .3em;
+}
+
+p[id="output"] {
+    margin-top: -.7em;
+    color: turquoise;
+}
+
+p[id="output"] {
+    font-size: 2em;
+}
+
+p[id="original"] {
+    font-size: 2em;
+    text-align: center;
+    color: turquoise;
+    font-family: "Lucida Console", "Courier New", Monospace;
+    margin-top: -1em;
+    margin-bottom: -1.5em;
+}
+
+legend {
+    font-style: italic;
+    color: black;
+}
+
+body {
+    background-color: grey;
+}
+
+button[id="reset"] {
+    margin-top: -.8em;
+    margin-bottom: -5em;
+}
+
+form {
+    background-color: hsl(100, 12%, 85%);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
